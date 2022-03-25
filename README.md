@@ -1,2 +1,1 @@
-# setup
-dev-setup
+# My Environment Setup
