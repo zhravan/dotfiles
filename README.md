@@ -6,10 +6,11 @@
 Tools Used:
 
 - [ ]  OMZ shell
+- [ ]  SourceTree
 - [ ]  Beekeeper Studio [SQL GUI]
 - [ ]  RoboMongo [MongoDB GUI]
 - [ ]  VS Code
-- [ ]  Intellij Idea CE
+- [ ]  Intellij Idea CE, PyCharm IDE, Eclipse 
 - [ ]  Postman
 - [ ]  AnyDesk
 - [ ]  Docker
@@ -24,9 +25,12 @@ Tools Used:
 - [ ]  MySQL
 - [ ]  MongoDB
 - [ ]  Redis
+- [ ]  Mac Specific
+    - [ ] Bandwidth+
 - [ ]  Gnome Tools:
     - [ ]  Windows List
     - [ ]  Minimized Windows List
     - [ ]  Internet Speed Meter / NetSpeed
     - [ ]  Lamp Status
     - [ ]  Coverflow Alt-Tab
+
