@@ -129,7 +129,7 @@ export PATH="/Library/Frameworks/Python.framework/Versions/3.8/bin:$PATH"
 ####Custom alias
 
 alias workspace="cd /Users/shravan/eclipse-pods-development"
-alias taxy="cd /Users/shravan/eclipse-pods-development/taxy-backend"
-alias taxy-logs="tail -F -100f /Users/shravan/eclipse-pods-development/taxy-backend/TaxyServer/logs/application.log"
+alias project_1="cd /Users/shravan/pods-development/backend"
+alias logs="tail -F -100f /Users/shravan/pods-development/backend/logs/application.log"
 alias python=/usr/local/bin/python3.8
 
