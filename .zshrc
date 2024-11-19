@@ -11,6 +11,22 @@ fi
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/shravan/.oh-my-zsh"
 
+jcmsg() {
+  # Prompt the user for the Jira ID and commit message
+  read "jira_id?Enter Jira ID: "
+  read "message?Enter commit message: "
+
+  # Check if either value is empty
+  if [ -z "$jira_id" ] || [ -z "$message" ]; then
+    echo "Both Jira ID and commit message are required."
+    return 1
+  fi
+
+  # Commit with formatted message
+  git commit -m "[${jira_id}]: ${message}"
+}
+
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
