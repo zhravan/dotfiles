@@ -22,4 +22,10 @@ o.tabstop = 2
 o.list = true
 o.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 
+-- Mouse: enable full support like typical IDEs
+o.mouse = "a"          -- allow mouse in all modes
+o.mousemodel = "extend" -- right-click extends selection
+o.mousefocus = true     -- focus windows on mouse move
+o.mousescroll = "ver:3,hor:6" -- smooth scrolling amounts
+
 
