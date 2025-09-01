@@ -1,0 +1,25 @@
+local o = vim.opt
+
+o.termguicolors = true
+o.number = true
+o.relativenumber = true
+o.cursorline = true
+o.signcolumn = "yes"
+o.wrap = false
+o.scrolloff = 8
+o.sidescrolloff = 8
+o.splitright = true
+o.splitbelow = true
+o.ignorecase = true
+o.smartcase = true
+o.updatetime = 200
+o.timeoutlen = 400
+o.clipboard = "unnamedplus"
+o.undofile = true
+o.expandtab = true
+o.shiftwidth = 2
+o.tabstop = 2
+o.list = true
+o.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
+
+
