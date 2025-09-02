@@ -47,6 +47,24 @@ end, opts)
 -- Eclipse: Go to definition (F3)
 map("n", "<F3>", vim.lsp.buf.definition, opts)
 
+-- Mouse helpers
+-- Double left-click: goto definition
+map("n", "<2-LeftMouse>", function()
+  vim.lsp.buf.definition()
+end, opts)
+-- Ctrl+Left click: references
+map("n", "<C-LeftMouse>", function()
+  require("telescope.builtin").lsp_references()
+end, opts)
+-- Alt+WheelUp/Down: switch buffers
+map("n", "<A-ScrollWheelUp>", ":bprevious<CR>", opts)
+map("n", "<A-ScrollWheelDown>", ":bnext<CR>", opts)
+-- Ctrl+Wheel: resize splits
+map("n", "<C-ScrollWheelUp>", ":resize +2<CR>", opts)
+map("n", "<C-ScrollWheelDown>", ":resize -2<CR>", opts)
+map("n", "<C-ScrollWheelLeft>", ":vertical resize -2<CR>", opts)
+map("n", "<C-ScrollWheelRight>", ":vertical resize +2<CR>", opts)
+
 -- Eclipse: Find References (Ctrl+Shift+G)
 map("n", "gR", function()
   require("telescope.builtin").lsp_references()

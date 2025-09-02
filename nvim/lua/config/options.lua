@@ -27,5 +27,7 @@ o.mouse = "a"          -- allow mouse in all modes
 o.mousemodel = "extend" -- right-click extends selection
 o.mousefocus = true     -- focus windows on mouse move
 o.mousescroll = "ver:3,hor:6" -- smooth scrolling amounts
+o.keymodel = "startsel,stopsel" -- Shift+Click starts/stops selection
+o.selectmode = "mouse,key"     -- mouse and keyboard select mode
 
 
